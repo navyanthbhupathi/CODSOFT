@@ -8,7 +8,6 @@ window.title('Calculator')
 # Increase the frame padding
 frame = tk.Frame(master=window, bg="skyblue", padx=20, pady=20)
 frame.pack()
-
 # Increase the entry field width and font size
 entry = tk.Entry(master=frame, relief=SUNKEN, borderwidth=3, width=20, font=("Arial", 20))
 entry.grid(row=0, column=0, columnspan=4, ipady=10, pady=10)
