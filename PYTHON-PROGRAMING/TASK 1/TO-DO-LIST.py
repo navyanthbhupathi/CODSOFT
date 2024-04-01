@@ -7,7 +7,6 @@ root = tkinter.Tk()
 root.configure(bg='#f0f0f0')
 root.title('To-Do List')
 root.attributes('-fullscreen', True)  # Make the window full screen
-
 tasks = []
 completed_tasks = []
 
