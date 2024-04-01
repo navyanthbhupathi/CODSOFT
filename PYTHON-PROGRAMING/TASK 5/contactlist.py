@@ -7,7 +7,6 @@ class AppWindow(Frame):
     def __init__(self, app, *args, **kwargs):
         Frame.__init__(self, *args, **kwargs)
         self.app = app
-
         self.app.option_add("*font", "Helvetica 10")
         self.app.resizable(width=False, height=False)
         # TODO: add center_window function
